@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/other_background"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 火車站、停車場免費接駁車:"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:layout_margin="6dp"
+                android:textStyle="bold"
+                />
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/channel_cardview_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                card_view:cardBackgroundColor="#C3C3C3"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="4dp"
+                android:layout_margin="1dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="1dp"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="往返燈會會場路線："
+                        android:textColor="#FFFFFF"
+                        android:textSize="18dp"
+                        android:id="@+id/title_1"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1.「海軍基地」、「中路風禾公園(綠)」、「內壢車站(紅)」、「泰豐輪胎(黃)」、「楊梅車站(棕)」、「功學社(紫)」；另於燈會會場亦開行「區內博愛」往返2號3號轉運站。\n"
+                        android:layout_marginLeft="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/content_1"
+                        android:layout_below="@+id/title_1"
+
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. 營運時間：平日進場 14:00 ~ 20:00，離場 15:00 ~ 22:30；假日進場 10:00 ~ 20:00，離場 11:00 ~ 23:00。\n"
+                        android:layout_marginLeft="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/content_2"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. 班次：尖峰3~5分鐘、離峰10~15分鐘。"
+                        android:layout_marginLeft="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/content_3"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/shuttle_map1" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="停車指引動線及免費接駁車路線圖: "
+                        android:layout_marginLeft="25dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        android:id="@+id/content_4"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/shuttle_map2"
+                        />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n停車指引動線及免費接駁車路線圖:"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                />
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/channel_cardview_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                card_view:cardBackgroundColor="#C3C3C3"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="8dp"
+                android:layout_margin="6dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="大園海軍基地於晚上20:30後，各門口僅供離開，無法進入。另因海軍基地幅員遼闊，請謹記停車位置及接駁車站點並依現場指標及人員引導動線。"
+                        android:layout_marginLeft="10dp"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:src="@drawable/shuttle_map3"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

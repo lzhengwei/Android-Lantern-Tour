@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/channel_list_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/channel_list_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorTestToolBar"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="1dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_below="@+id/channel_list_toolbar"
+            android:background="@drawable/other_background"
+            >
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/channel_cardview_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        card_view:cardBackgroundColor="#C3C3C3"
+                        card_view:cardCornerRadius="10dp"
+                        card_view:cardElevation="1dp"
+                        android:layout_margin="3dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/channel_cardview_title1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                card_view:cardBackgroundColor="#007777"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                android:layout_margin="3dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="彩排節目流程表 02月21日 (星期日)"
+                                    android:textSize="20dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:00~18:00 野舞台─國立臺灣體育運動大學熱舞社(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:00~18:15 台中市青年高中─台灣青年舞團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:15~18:20 台南應用科技大學舞蹈系(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:20~18:25 華岡藝校青少年演藝團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:25~18:35 中華航空CI Beauties(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:35~18:45 十鼓擊樂團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:45~19:00 朱宗慶打擊樂團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:00~19:19 2016台灣燈會彩排試燈儀式(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:19~20:00 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/channel_cardview_2"
+                        android:layout_below="@+id/channel_cardview_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        card_view:cardBackgroundColor="#C3C3C3"
+                        card_view:cardCornerRadius="10dp"
+                        card_view:cardElevation="1dp"
+                        android:layout_margin="3dp"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/channel_cardview_title2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                card_view:cardBackgroundColor="#CF44FF"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                android:layout_margin="3dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="開燈節目流程表 02月22日 (星期一)"
+                                    android:textSize="20dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   14:00~16:00 踩街表演(高鐵北路一段 (青心路至青埔路二段))"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:15~17:20 日本北海道YOSAKOI團隊─夢想漣(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:20~17:25 野舞台─國立臺灣體育運動大學熱舞社(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:25~17:40 台中市青年高中─台灣青年舞團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:40~17:45 台南應用科技大學舞蹈系(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:45~17:50 華岡藝校青少年演藝團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   17:50~18:15 日本高知、名古屋、三重、北海道YOSAKOI團隊(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:15~18:25 中華航空CI Beauties(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:25~18:35 喔熊組長/阿喜、JR紀言愷/台灣觀光遊樂區協會(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:35~18:45 十鼓擊樂團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:45~19:00 朱宗慶打擊樂團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:00~19:16 2016台灣燈會開燈典禮(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:16~19:26 主燈開燈(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:26~20:00 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/channel_cardview_3"
+                        android:layout_below="@+id/channel_cardview_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        card_view:cardBackgroundColor="#C3C3C3"
+                        card_view:cardCornerRadius="10dp"
+                        card_view:cardElevation="1dp"
+                        android:layout_margin="3dp"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/channel_cardview_title3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                card_view:cardBackgroundColor="#FFFF00"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                android:layout_margin="3dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="閉幕節目流程表 3月6日(星期日)"
+                                    android:textSize="20dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:30~18:35 主燈展演(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   18:35~19:05 桃園市私立新興高級中學(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:05~19:35 薪傳兒童舞團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   19:35~20:05 萍影舞集(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   20:05~20:35 桃園市私立永平工商表演藝術科(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   20:35~21:05 台灣飛鴻館龍獅團(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   21:05~21:35 虎劇團/日本扯鈴協會/ TBALLSTAR(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   21:35~22:00 國立台灣戲曲學院(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:00~22:05 2016台灣燈會閉幕典禮(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:05~22:30 主燈展演(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/channel_cardview_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/channel_cardview_3"
+
+                        card_view:cardBackgroundColor="#C3C3C3"
+                        card_view:cardCornerRadius="10dp"
+                        card_view:cardElevation="1dp"
+                        android:layout_margin="3dp"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/channel_cardview_title4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                card_view:cardBackgroundColor="#4444FF"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                android:layout_margin="3dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="開燈日 02月11日 (星期日)"
+                                    android:textSize="20dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                    <android.support.v7.widget.CardView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/channel_cardview_5"
+                        android:layout_below="@+id/channel_cardview_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        card_view:cardBackgroundColor="#C3C3C3"
+                        card_view:cardCornerRadius="10dp"
+                        card_view:cardElevation="1dp"
+                        android:layout_margin="3dp"
+
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <android.support.v7.widget.CardView
+                                xmlns:android="http://schemas.android.com/apk/res/android"
+                                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                android:id="@+id/channel_cardview_title5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                card_view:cardBackgroundColor="#997744"
+                                card_view:cardCornerRadius="10dp"
+                                card_view:cardElevation="1dp"
+                                android:layout_margin="3dp"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="開燈日 02月11日 (星期日)"
+                                    android:textSize="20dp"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    />
+                            </android.support.v7.widget.CardView>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="O   22:30~20:41 煙火秀(主舞臺)"
+                                android:layout_marginLeft="6dp"
+                                />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/channel_list_navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/drawer"/>
+</android.support.v4.widget.DrawerLayout>

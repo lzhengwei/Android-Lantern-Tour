@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_home"
+            android:checked="false"
+            android:icon="@drawable/home_icon"
+            android:title="首頁" />
+        <item
+            android:id="@+id/navigation_item_news"
+            android:checked="false"
+            android:icon="@drawable/news_icon"
+            android:title="最新資訊" />
+        <item
+            android:id="@+id/navigation_item_information"
+            android:checked="false"
+            android:icon="@drawable/ic_attachment"
+            android:title="燈區資訊" />
+        <item
+            android:id="@+id/navigation_item_location"
+            android:checked="false"
+            android:icon="@drawable/ic_image"
+            android:title="燈會導覽圖" />
+        <item
+            android:id="@+id/navigation_item_translate"
+            android:checked="false"
+            android:icon="@drawable/translate_icon"
+            android:title="大眾運輸時刻表" />
+        <item
+            android:id="@+id/navigation_item_mapfunc"
+            android:checked="false"
+            android:icon="@drawable/ic_place"
+            android:title="地圖導航" />
+        <item
+            android:id="@+id/navigation_item_safe"
+            android:checked="false"
+            android:icon="@drawable/ic_emoticon"
+            android:title="親子安全" />
+        <item
+            android:id="@+id/navigation_item_channellist"
+            android:checked="false"
+            android:icon="@drawable/channel_list_icon"
+            android:title="節目列表" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/navigation_item_browser"
+                android:icon="@drawable/browser_icon"
+                android:title="網頁搜尋" />
+            <item
+                android:id="@+id/navigation_item_contact_us"
+                android:icon="@drawable/contact_us_icon"
+                android:title="聯絡我們" />
+        </menu>
+    </item>
+
+</menu>

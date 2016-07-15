@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="雲林縣主要有客運為台西客運，往返雲林各鄉鎮"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/channel_cardview_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                card_view:cardBackgroundColor="#C3C3C3"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="8dp"
+                android:layout_margin="6dp"
+                android:background="#ffb114">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp"
+                    android:background="#ffe747">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="台西客運:"
+                        android:textSize="22dp"
+                        android:textColor="#FFFFFF"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textSize="16dp"
+                        android:text="
+1.【7101 虎尾-麥寮-雲林長庚醫院】 \n \n
+2.【7102 虎尾-斗南】 \n \n
+3.【7104 虎尾-霄仁厝-麥寮】 \n \n
+4.【7107 虎尾-元長-口湖】\n \n
+5.【7109 虎尾-台西-崙豐】\n \n
+6.【7110 虎尾-褒忠】\n \n
+7.【7111 虎尾-台西-麥寮】\n \n
+8.【7112 虎尾-下街-麥寮】\n \n
+9.【7122 虎尾-斗六】"
+                        />
+
+                    <Button
+                        android:layout_width="134dp"
+                        android:layout_height="wrap_content"
+                        android:text="線上搜尋時刻表"
+                        android:id="@+id/button2"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#f4ffc7" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

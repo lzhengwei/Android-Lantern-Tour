@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="縣府正積極引進民間資源投入，並加強產官學通力合作，充分展現明年台灣燈會「花燈原鄉、友善大地」特色。"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                />
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/channel_cardview_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                card_view:cardBackgroundColor="#C3C3C3"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="8dp"
+                android:layout_margin="6dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="經斗六聯外道路抵達虎尾燈區路線:"
+                        android:textSize="22dp"
+                        android:textColor="#FFFFFF"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textSize="16dp"
+                        android:text="
+1. 國道1號斗南交流道→158線→145線。 \n\n
+2. 台78線土庫交流道→145線→虎尾→埒內。 \n\n
+3. 台78線土庫交流道→大屯→安溪→雲92。 \n\n
+4. 自強大橋→褒忠→158甲→安溪→埒內 。\n\n
+5. 西螺大橋（入口意象）→吳厝→中正橋 。\n\n
+6. 自強大橋→褒忠→崙背→二崙→吳厝\n。"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/channel_cardview_6"
+                android:layout_below="@+id/channel_cardview_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                card_view:cardBackgroundColor="#FAAB00"
+                card_view:cardCornerRadius="14dp"
+                card_view:cardElevation="8dp"
+                android:layout_margin="6dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="3dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:text="通往北港燈區的觀光遊覽途經路線:"
+                        android:textSize="22dp"
+                        android:textColor="#FFFFFF"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
+                        android:textSize="16dp"
+                        android:text="
+1. 台78線土庫交流道土庫→土庫145線→元長。 \n\n
+2. 台78土庫交流道→台19線→元長。 \n\n
+3. 台61線口湖交流道→164線。\n"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
